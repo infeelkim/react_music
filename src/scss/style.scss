@@ -1,5 +1,17 @@
 @import 'reset';
 
-h1 {
-	color: red;
+section {
+	width: 300px;
+	// height: 400px;
+
+	article {
+		width: 100%;
+		border: 1px solid #aaa;
+		padding: 20px;
+		margin: 50px;
+
+		img {
+			width: 100%;
+		}
+	}
 }
